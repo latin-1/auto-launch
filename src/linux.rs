@@ -32,10 +32,10 @@ impl AutoLaunch {
             Type=Application\n\
             Version=1.0\n\
             Name={}\n\
-            Comment={}startup script\n\
-            Exec={} {}\n\
+            Comment={} startup script\n\
+            Exec=\"{}\" {}\n\
             StartupNotify=false\n\
-            Terminal=false",
+            Terminal=false\n",
             self.app_name,
             self.app_name,
             self.app_path,
